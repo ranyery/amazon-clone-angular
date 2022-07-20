@@ -1,1 +1,17 @@
-<p>hero works!</p>
+<div
+  [style.backgroundImage]="'url(assets/img/backgrounds/bg' + indexBG + '.jpg)'"
+  class="hero-component"
+>
+  <div class="carousel" (click)="previousBackground()">
+    <img src="assets/img/svg/icon-arrow-left.svg" />
+  </div>
+  <div class="carousel" (click)="nextBackground()">
+    <img src="assets/img/svg/icon-arrow-right.svg" />
+  </div>
+  <div class="hero-component-content">
+    <span>
+      You can shop on Amazon Brazil for millions of products with fast local
+      delivery.
+    </span>
+  </div>
+</div>
