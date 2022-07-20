@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SearchComponent } from './search.component';
+import { NavbarBeltLeftComponent } from './navbar-belt-left.component';
 
-describe('SearchComponent', () => {
-  let component: SearchComponent;
-  let fixture: ComponentFixture<SearchComponent>;
+describe('NavbarBeltLeftComponent', () => {
+  let component: NavbarBeltLeftComponent;
+  let fixture: ComponentFixture<NavbarBeltLeftComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [SearchComponent],
+      declarations: [NavbarBeltLeftComponent],
     }).compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SearchComponent);
+    fixture = TestBed.createComponent(NavbarBeltLeftComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

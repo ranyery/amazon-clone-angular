@@ -1,0 +1,58 @@
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .flag {
+    margin-right: 16px;
+  }
+
+  .account {
+    margin: 0 8px;
+
+    &-title {
+      font-size: 14px;
+
+      &__bold {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .orders {
+    margin: 0 8px;
+
+    &-title {
+      font-size: 14px;
+
+      &__bold {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .cart {
+    margin-left: 8px;
+    display: flex;
+    position: relative;
+
+    .cart-amount {
+      display: flex;
+      justify-content: center;
+
+      height: 28px;
+      position: relative;
+
+      span {
+        position: absolute;
+        color: #ff9900;
+        font-weight: bold;
+      }
+    }
+
+    p {
+      font-weight: bold;
+      align-self: flex-end;
+    }
+  }
+}
