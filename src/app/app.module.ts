@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NavbarBeltLeftComponent } from './components/navbar/navbar-belt/navbar-belt-left/navbar-belt-left.component';
 import { NavbarBeltRightComponent } from './components/navbar/navbar-belt/navbar-belt-right/navbar-belt-right.component';
+import { NavbarMainComponent } from './components/navbar/navbar-main/navbar-main.component';
 import { NavbarBeltSearchComponent } from './components/navbar/navbar-belt/navbar-belt-search/navbar-belt-search.component';
 import { NavbarBeltContainerComponent } from './components/navbar/navbar-belt/navbar-belt-container/navbar-belt-container.component';
 
@@ -15,6 +16,7 @@ import { NavbarBeltContainerComponent } from './components/navbar/navbar-belt/na
     HeaderComponent,
     NavbarBeltLeftComponent,
     NavbarBeltRightComponent,
+    NavbarMainComponent,
     NavbarBeltSearchComponent,
     NavbarBeltContainerComponent,
   ],

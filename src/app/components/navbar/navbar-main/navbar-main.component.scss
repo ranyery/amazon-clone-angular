@@ -1,0 +1,37 @@
+:host {
+  background-color: #232f3e;
+  width: 100%;
+
+  .navbar-main-component {
+    width: 1440px;
+    height: 40px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+
+    color: #fff;
+
+    .navbar-main-icon {
+      display: flex;
+
+      img {
+        margin-right: 4px;
+      }
+    }
+
+    .list-options {
+      display: flex;
+      margin-left: 1rem;
+
+      a {
+        padding: 8px 12px;
+        margin: 4px 0;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
