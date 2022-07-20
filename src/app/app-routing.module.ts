@@ -9,6 +9,13 @@ const routes: Routes = [
     component: HomeComponent,
   },
   {
+    path: 'product-listing',
+    loadChildren: () =>
+      import('./pages/product-listing/product-listing.module').then(
+        (m) => m.ProductListingModule
+      ),
+  },
+  {
     path: '**',
     pathMatch: 'full',
     redirectTo: '',
